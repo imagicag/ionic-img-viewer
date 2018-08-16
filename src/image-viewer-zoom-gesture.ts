@@ -74,8 +74,8 @@ export class ImageViewerZoomGesture extends Gesture {
 		const originalImageWidth = this.element.offsetWidth;
 		const originalImageHeight = this.element.offsetHeight;
 
-		this.allowedXMargin = ((originalImageWidth * this.currentScale) - originalImageWidth) / 4;
-		this.allowedYMargin = ((originalImageHeight * this.currentScale) - originalImageHeight) / 4;
+		// this.allowedXMargin = ((originalImageWidth * this.currentScale) - originalImageWidth) / 4;
+		// this.allowedYMargin = ((originalImageHeight * this.currentScale) - originalImageHeight) / 4;
 	}
 
 	onPan(event) {
