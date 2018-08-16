@@ -3,7 +3,7 @@
   "version": "2.9.0",
   "description": "Ionic 2 component providing a Twitter inspired experience to visualize pictures.",
   "main": "./dist/es2015/ionic-img-viewer.js",
-  "typings": "./dist/es2015/ionic-img-viewer.d.ts",
+  "typings": "./dist/definitions/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "node ngc-build.js"
