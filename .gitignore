@@ -9,9 +9,7 @@ Thumbs.db
 .vscode
 
 # Ignored files
-*.js
 *.map
-*.d.ts
 *.css
 *.tgz
 
