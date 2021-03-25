@@ -13,12 +13,13 @@ image-viewer.ion-page {
     opacity: 1;
 
     ion-navbar {
+        padding-top: env(safe-area-inset-top) !important;
         &.toolbar .toolbar-background {
             background-color: transparent;
         }
 
         &.toolbar.toolbar-ios {
-            padding-top: calc(50px + 4px);
+            padding-top: calc(20px + 4px);
         }
 
         .bar-button-default {

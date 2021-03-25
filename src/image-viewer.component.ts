@@ -34,7 +34,7 @@ import { ImageViewerEnter, ImageViewerLeave } from './image-viewer-transitions';
 	selector: 'image-viewer',
 	template: `
 		<ion-header no-border>
-			<ion-navbar>
+			<ion-navbar style="padding-top: env(safe-area-inset-top) !important;">
 			</ion-navbar>
 		</ion-header>
 
